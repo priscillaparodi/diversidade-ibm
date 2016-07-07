@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: diversidade-ibm
+  name: diversidade-ibm
+  memory: 640M
+  stack: cflinuxfs2
